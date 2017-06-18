@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="marinades">marinades</string>
+    <string name="all">ALL</string>
+    <string name="appetizers">appetizers</string>
+    <string name="bread">bread</string>
+    <string name="breakfast">breakfast</string>
+    <string name="desserts">desserts</string>
+    <string name="drinks">drinks</string>
+    <string name="maindish">maindish</string>
+    <string name="other">other</string>
+    <string name="salads">salads</string>
+    <string name="sidedish">sidedish</string>
+    <string name="soups">soups</string>
+    <string name="search">Search</string>
+
+</resources>

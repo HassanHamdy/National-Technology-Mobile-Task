@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="auto_fit"
+    android:orientation="vertical"
+    android:stretchMode="columnWidth">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ALL"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/all"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+                <Button
+                    android:id="@+id/appetizers"
+
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/appetizers"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bread"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/bread"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+                <Button
+                    android:id="@+id/breakfast"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/breakfast"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/desserts"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/desserts"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+                <Button
+                    android:id="@+id/drinks"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/drinks"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/maindish"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/maindish"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+                <Button
+                    android:id="@+id/salads"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/salads"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/sidedish"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/sidedish"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+                <Button
+                    android:id="@+id/soups"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/soups"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/marinades"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/marinades"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+                <Button
+                    android:id="@+id/other"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray"
+                    android:fontFamily="casual"
+                    android:text="@string/other"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="InvalidId" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</GridLayout>

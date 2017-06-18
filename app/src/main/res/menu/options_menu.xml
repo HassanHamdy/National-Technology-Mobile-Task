@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.myapp">
+
+    <item
+        android:id="@+id/search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/refresh"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.refresh"
+        app:showAsAction="ifRoom" />
+
+</menu>
